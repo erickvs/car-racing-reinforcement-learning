@@ -1,1 +1,28 @@
-.venv/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+env/
+.venv
+venv/
+env/
+ENV/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.trash/
+*.DS_Store  # macOS specific
+
+# IDE specific
+.idea/      # IntelliJ IDEA
+.vscode/    # VS Code
+
+# Compiled files
+*.o
+*.a
+*.so
+*.dll
